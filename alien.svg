@@ -1,0 +1,184 @@
+<svg width="32" height="32" viewBox="0 0 120 140" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background cosmic glow -->
+  <ellipse cx="60" cy="70" rx="55" ry="60" fill="#7C3AED" opacity="0.2"/>
+  <ellipse cx="60" cy="70" rx="45" ry="50" fill="#EC4899" opacity="0.1"/>
+  
+  <!-- Alien head with complex gradients -->
+  <defs>
+    <radialGradient id="headGradient" cx="40%" cy="30%" r="80%">
+      <stop offset="0%" style="stop-color:#A855F7;stop-opacity:1" />
+      <stop offset="25%" style="stop-color:#8B5CF6;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#7C3AED;stop-opacity:1" />
+      <stop offset="75%" style="stop-color:#6D28D9;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#5B21B6;stop-opacity:1" />
+    </radialGradient>
+    <radialGradient id="eyeGradient" cx="30%" cy="20%" r="80%">
+      <stop offset="0%" style="stop-color:#000000;stop-opacity:1" />
+      <stop offset="40%" style="stop-color:#1F2937;stop-opacity:1" />
+      <stop offset="80%" style="stop-color:#111827;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#000000;stop-opacity:1" />
+    </radialGradient>
+    <linearGradient id="antennaGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F59E0B;stop-opacity:1" />
+      <stop offset="30%" style="stop-color:#EC4899;stop-opacity:1" />
+      <stop offset="60%" style="stop-color:#EF4444;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#DC2626;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="headShine" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFFFFF;stop-opacity:0.3" />
+      <stop offset="50%" style="stop-color:#FFFFFF;stop-opacity:0.1" />
+      <stop offset="100%" style="stop-color:#FFFFFF;stop-opacity:0" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Main head shape with enhanced proportions -->
+  <ellipse cx="60" cy="65" rx="42" ry="48" fill="url(#headGradient)"/>
+  
+  <!-- Head outline with multiple glow layers -->
+  <ellipse cx="60" cy="65" rx="42" ry="48" stroke="#EC4899" stroke-width="6" opacity="0.4"/>
+  <ellipse cx="60" cy="65" rx="42" ry="48" stroke="#7C3AED" stroke-width="4" opacity="0.6"/>
+  <ellipse cx="60" cy="65" rx="42" ry="48" stroke="#5B21B6" stroke-width="2" opacity="0.8"/>
+  <ellipse cx="60" cy="65" rx="42" ry="48" stroke="#4C1D95" stroke-width="1"/>
+  
+  <!-- Head shine effect -->
+  <ellipse cx="50" cy="45" rx="25" ry="30" fill="url(#headShine)"/>
+  
+  <!-- Head texture and details -->
+  <ellipse cx="50" cy="50" rx="3" ry="4" fill="#8B5CF6" opacity="0.4"/>
+  <ellipse cx="70" cy="50" rx="3" ry="4" fill="#8B5CF6" opacity="0.4"/>
+  <ellipse cx="60" cy="55" rx="4" ry="3" fill="#8B5CF6" opacity="0.3"/>
+  
+  <!-- Forehead details -->
+  <ellipse cx="60" cy="40" rx="6" ry="3" fill="#8B5CF6" opacity="0.3"/>
+  <ellipse cx="55" cy="38" rx="2" ry="1" fill="#A855F7" opacity="0.4"/>
+  <ellipse cx="65" cy="38" rx="2" ry="1" fill="#A855F7" opacity="0.4"/>
+  
+  <!-- Large black eyes with enhanced depth -->
+  <ellipse cx="42" cy="58" rx="14" ry="20" fill="url(#eyeGradient)"/>
+  <ellipse cx="78" cy="58" rx="14" ry="20" fill="url(#eyeGradient)"/>
+  
+  <!-- Eye outlines with glow -->
+  <ellipse cx="42" cy="58" rx="14" ry="20" stroke="#000000" stroke-width="2"/>
+  <ellipse cx="78" cy="58" rx="14" ry="20" stroke="#000000" stroke-width="2"/>
+  <ellipse cx="42" cy="58" rx="14" ry="20" stroke="#1F2937" stroke-width="1" opacity="0.5"/>
+  <ellipse cx="78" cy="58" rx="14" ry="20" stroke="#1F2937" stroke-width="1" opacity="0.5"/>
+  
+  <!-- Multiple eye highlights for ultra-realism -->
+  <ellipse cx="45" cy="50" rx="6" ry="10" fill="#FFFFFF" opacity="0.95"/>
+  <ellipse cx="81" cy="50" rx="6" ry="10" fill="#FFFFFF" opacity="0.95"/>
+  
+  <ellipse cx="46" cy="48" rx="4" ry="7" fill="#E5E7EB" opacity="0.9"/>
+  <ellipse cx="82" cy="48" rx="4" ry="7" fill="#E5E7EB" opacity="0.9"/>
+  
+  <ellipse cx="47" cy="46" rx="2" ry="4" fill="#F3F4F6" opacity="0.95"/>
+  <ellipse cx="83" cy="46" rx="2" ry="4" fill="#F3F4F6" opacity="0.95"/>
+  
+  <ellipse cx="48" cy="44" rx="1" ry="2" fill="#FFFFFF" opacity="0.9"/>
+  <ellipse cx="84" cy="44" rx="1" ry="2" fill="#FFFFFF" opacity="0.9"/>
+  
+  <!-- Eye pupils with enhanced depth -->
+  <ellipse cx="45" cy="62" rx="5" ry="8" fill="#000000"/>
+  <ellipse cx="81" cy="62" rx="5" ry="8" fill="#000000"/>
+  
+  <!-- Pupil highlights with multiple layers -->
+  <ellipse cx="46" cy="60" rx="2" ry="3" fill="#FFFFFF" opacity="0.8"/>
+  <ellipse cx="82" cy="60" rx="2" ry="3" fill="#FFFFFF" opacity="0.8"/>
+  <ellipse cx="46" cy="59" rx="1" ry="1.5" fill="#F9FAFB" opacity="0.9"/>
+  <ellipse cx="82" cy="59" rx="1" ry="1.5" fill="#F9FAFB" opacity="0.9"/>
+  
+  <!-- Enhanced nose with more detail -->
+  <ellipse cx="60" cy="72" rx="5" ry="6" fill="#5B21B6"/>
+  <ellipse cx="60" cy="71" rx="4" ry="5" fill="#7C3AED"/>
+  <ellipse cx="60" cy="70" rx="3" ry="4" fill="#8B5CF6" opacity="0.8"/>
+  <ellipse cx="60" cy="69" rx="2" ry="3" fill="#A855F7" opacity="0.6"/>
+  
+  <!-- Detailed nostrils -->
+  <circle cx="57" cy="73" r="1.2" fill="#4C1D95"/>
+  <circle cx="63" cy="73" r="1.2" fill="#4C1D95"/>
+  <circle cx="57" cy="73" r="0.6" fill="#6D28D9" opacity="0.6"/>
+  <circle cx="63" cy="73" r="0.6" fill="#6D28D9" opacity="0.6"/>
+  
+  <!-- Enhanced mouth with more expression -->
+  <path d="M45 78 Q60 85 75 78" stroke="#5B21B6" stroke-width="5" fill="none"/>
+  <path d="M45 78 Q60 82 75 78" stroke="#7C3AED" stroke-width="3" fill="none"/>
+  <path d="M45 78 Q60 80 75 78" stroke="#8B5CF6" stroke-width="2" fill="none"/>
+  <path d="M45 78 Q60 79 75 78" stroke="#A855F7" stroke-width="1" fill="none"/>
+  
+  <!-- Mouth corners with detail -->
+  <circle cx="45" cy="78" r="2" fill="#5B21B6"/>
+  <circle cx="75" cy="78" r="2" fill="#5B21B6"/>
+  <circle cx="45" cy="78" r="1" fill="#7C3AED" opacity="0.6"/>
+  <circle cx="75" cy="78" r="1" fill="#7C3AED" opacity="0.6"/>
+  
+  <!-- Enhanced antenna with multiple glow effects -->
+  <line x1="60" y1="17" x2="60" y2="32" stroke="#7C3AED" stroke-width="6"/>
+  <line x1="60" y1="17" x2="60" y2="32" stroke="#EC4899" stroke-width="4" opacity="0.7"/>
+  <line x1="60" y1="17" x2="60" y2="32" stroke="#F59E0B" stroke-width="2" opacity="0.5"/>
+  
+  <!-- Antenna ball with complex gradient -->
+  <circle cx="60" cy="12" r="10" fill="url(#antennaGradient)"/>
+  <circle cx="60" cy="12" r="8" fill="#F59E0B"/>
+  <circle cx="60" cy="12" r="6" fill="#FFFFFF"/>
+  <circle cx="60" cy="12" r="4" fill="#FEF3C7"/>
+  <circle cx="60" cy="12" r="2" fill="#FFFBEB"/>
+  
+  <!-- Antenna glow effects -->
+  <circle cx="60" cy="12" r="14" fill="#EC4899" opacity="0.3"/>
+  <circle cx="60" cy="12" r="18" fill="#7C3AED" opacity="0.2"/>
+  <circle cx="60" cy="12" r="22" fill="#5B21B6" opacity="0.1"/>
+  
+  <!-- Cheek details with more texture -->
+  <ellipse cx="35" cy="70" rx="4" ry="3" fill="#8B5CF6" opacity="0.5"/>
+  <ellipse cx="85" cy="70" rx="4" ry="3" fill="#8B5CF6" opacity="0.5"/>
+  <ellipse cx="33" cy="68" rx="2" ry="1.5" fill="#A855F7" opacity="0.4"/>
+  <ellipse cx="87" cy="68" rx="2" ry="1.5" fill="#A855F7" opacity="0.4"/>
+  
+  <!-- Temple details -->
+  <ellipse cx="25" cy="55" rx="3" ry="2" fill="#8B5CF6" opacity="0.3"/>
+  <ellipse cx="95" cy="55" rx="3" ry="2" fill="#8B5CF6" opacity="0.3"/>
+  
+  <!-- Enhanced cosmic stars with different effects -->
+  <circle cx="20" cy="30" r="4" fill="#FFFFFF"/>
+  <circle cx="20" cy="30" r="2" fill="#EC4899" opacity="0.8"/>
+  <circle cx="20" cy="30" r="6" fill="#EC4899" opacity="0.2"/>
+  <circle cx="20" cy="30" r="8" fill="#7C3AED" opacity="0.1"/>
+  
+  <circle cx="100" cy="35" r="3.5" fill="#FFFFFF"/>
+  <circle cx="100" cy="35" r="1.5" fill="#7C3AED" opacity="0.8"/>
+  <circle cx="100" cy="35" r="5" fill="#7C3AED" opacity="0.2"/>
+  
+  <circle cx="25" cy="20" r="3" fill="#FFFFFF"/>
+  <circle cx="25" cy="20" r="1.5" fill="#F59E0B" opacity="0.8"/>
+  <circle cx="25" cy="20" r="4" fill="#F59E0B" opacity="0.2"/>
+  
+  <circle cx="95" cy="25" r="3" fill="#FFFFFF"/>
+  <circle cx="95" cy="25" r="1.5" fill="#EC4899" opacity="0.8"/>
+  <circle cx="95" cy="25" r="4" fill="#EC4899" opacity="0.2"/>
+  
+  <circle cx="105" cy="65" r="3" fill="#FFFFFF"/>
+  <circle cx="105" cy="65" r="1.5" fill="#7C3AED" opacity="0.8"/>
+  <circle cx="105" cy="65" r="4" fill="#7C3AED" opacity="0.2"/>
+  
+  <circle cx="15" cy="60" r="2.5" fill="#FFFFFF"/>
+  <circle cx="15" cy="60" r="1" fill="#F59E0B" opacity="0.8"/>
+  <circle cx="15" cy="60" r="3.5" fill="#F59E0B" opacity="0.2"/>
+  
+  <!-- Additional small stars with glow -->
+  <circle cx="8" cy="40" r="1.5" fill="#FFFFFF" opacity="0.9"/>
+  <circle cx="8" cy="40" r="0.8" fill="#EC4899" opacity="0.6"/>
+  
+  <circle cx="112" cy="45" r="1.5" fill="#FFFFFF" opacity="0.9"/>
+  <circle cx="112" cy="45" r="0.8" fill="#7C3AED" opacity="0.6"/>
+  
+  <circle cx="30" cy="10" r="1.5" fill="#FFFFFF" opacity="0.9"/>
+  <circle cx="30" cy="10" r="0.8" fill="#F59E0B" opacity="0.6"/>
+  
+  <circle cx="90" cy="12" r="1.5" fill="#FFFFFF" opacity="0.9"/>
+  <circle cx="90" cy="12" r="0.8" fill="#EC4899" opacity="0.6"/>
+  
+  <circle cx="18" cy="85" r="1.5" fill="#FFFFFF" opacity="0.9"/>
+  <circle cx="18" cy="85" r="0.8" fill="#7C3AED" opacity="0.6"/>
+  
+  <circle cx="102" cy="90" r="1.5" fill="#FFFFFF" opacity="0.9"/>
+  <circle cx="102" cy="90" r="0.8" fill="#EC4899" opacity="0.6"/>
+</svg>
